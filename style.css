@@ -1,0 +1,274 @@
+body {
+  font-family: 'Playfair Display', serif;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 20px;
+  line-height: 1.6;
+  background: #0e0e0e;
+  color: #f4f4f4;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  margin-top: 2rem;
+  color: hsl(0, 0%, 0%);
+}
+
+.navbar a,
+.button-link{
+  color: hsl(0, 0%, 0%);
+}
+
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #bb86fc;
+  color: #0e0e0e;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.button-link:hover {
+  background-color: #a370f7;
+}
+
+/* Navbar layout */
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  list-style: none;
+  padding: 20px 0;
+  border-bottom: 5px solid #333;
+  margin-bottom: 40px;
+}
+
+/* Navbar links */
+.navbar a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-image: url('images/Background1.png'); /* use your correct path */
+  background-size: cover;         /* scales image to cover full screen */
+  background-repeat: no-repeat;   /* prevents tiling */
+  background-position: center;    /* centers image */
+  background-attachment: fixed;   /* keeps image fixed while scrolling (optional) */
+  color: white;                   /* example: default text color */
+}
+
+.projects-heading {
+  color: hsl(0, 100%, 1%);
+  font-size: 2.5rem;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.about-intro {
+  font-size: 1.5rem;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.bio {
+  font-size: 1rem;
+  font-family: 'Playfair Display', serif;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.back-link {
+  display: inline-block;
+  padding: 10px 16px;
+  margin-top: 2rem;
+  font-size: 0.95rem;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.6); /* transparent black */
+  border: 1px solid #ffffff20;         /* subtle border */
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.back-link:hover {
+  background-color: rgba(255, 255, 255, 0.15); /* lighter on hover */
+  text-decoration: underline;
+}
+
+
+.about-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about-section {
+  background-color: rgba(0, 0, 0, 0.6); /* semi-transparent black */
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  color: #f4f4f4;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+@media (max-width: 600px) {
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .about-section {
+    padding: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .image-row img.section-image {
+    max-width: 100%;
+  }
+}
+
+
+.section-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  display: block;
+  object-fit: cover;
+}
+
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.image-row img.section-image {
+  flex: 1 1 30%; /* shrink and wrap if needed */
+  max-width: 30%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.github-link {
+  text-decoration: none;
+}
+
+.github-link i {
+  color: #8B0000; /* optional: icon matches the text */
+  margin-right: 5px;
+}
+
+.highlight-word {
+  color: #8B0000; /* wine red */
+  font-weight: bold;
+  text-shadow: 0 0 2px #8B0000;
+}
+
+.github-link:hover .highlight-word {
+  text-shadow: 0 0 6px #8B0000;
+}
+
+
+/* === Social Link Styling === */
+.about-section p {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Icons */
+.about-section i {
+  font-size: 1.2rem;
+  color: inherit;
+}
+
+/* Make icons inherit color from links */
+.linkedin-icon {
+  color: #0A66C2 !important;
+}
+.instagram-icon {
+  color: #C13584 !important;
+}
+.email-icon {
+  color: #FF4500 !important;
+}
+
+/* Link appearance */
+.about-section a {
+  color: #f4f4f4;
+  font-weight: bold;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.about-section a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 4px rgba(255, 255, 255, 0.4);
+}
+
+/* Give each social link its own color */
+.linkedin-link {
+  color: #0A66C2;
+}
+
+.instagram-link {
+  color: #C13584;
+}
+
+.email-link {
+  color: #FF4500;
+}
+
+/* Hover effect for each */
+.linkedin-link:hover {
+  color: #4081e0;
+  text-shadow: 0 0 6px rgba(64, 129, 224, 0.5);
+}
+
+.instagram-link:hover {
+  color: #e0639c;
+  text-shadow: 0 0 6px rgba(225, 99, 156, 0.5);
+}
+
+.email-link:hover {
+  color: #ff6933;
+  text-shadow: 0 0 6px rgba(255, 105, 51, 0.5);
+}
