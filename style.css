@@ -4,9 +4,14 @@ body {
   margin: 40px auto;
   padding: 0 20px;
   line-height: 1.6;
-  background: #0e0e0e;
+  background-image: url('/portfolioWebsite/Images/Background1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   color: #f4f4f4;
 }
+
 
 header {
   text-align: center;
@@ -66,16 +71,6 @@ h2 {
 
 .navbar a:hover {
   text-decoration: underline;
-}
-
-body {
-  background-image: url('/portfolioWebsite/Images/Background1.png');
- /* use your correct path */
-  background-size: cover;         /* scales image to cover full screen */
-  background-repeat: no-repeat;   /* prevents tiling */
-  background-position: center;    /* centers image */
-  background-attachment: fixed;   /* keeps image fixed while scrolling (optional) */
-  color: white;                   /* example: default text color */
 }
 
 .projects-heading {
