@@ -69,7 +69,8 @@ h2 {
 }
 
 body {
-  background-image: url('Images/Background1.png'); /* use your correct path */
+  background-image: url('/portfolioWebsite/Images/Background1.png');
+ /* use your correct path */
   background-size: cover;         /* scales image to cover full screen */
   background-repeat: no-repeat;   /* prevents tiling */
   background-position: center;    /* centers image */
